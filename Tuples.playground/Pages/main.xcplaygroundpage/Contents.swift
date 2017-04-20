@@ -16,7 +16,7 @@
  */
 // write your code here
 
-
+var person = ("Maksim", 35)
 
 
 
@@ -28,7 +28,7 @@
  */
 // write your code here
 
-
+print("\(person.0) is \(person.1) years old")
 
 
 
@@ -39,7 +39,7 @@
  ### 3. It is the person's birthday! Increment the person's age by one year that you created in Question 1.
  */
 // write your code here
-
+person.1 += 1
 
 
 
@@ -52,7 +52,7 @@
  */
 // write your code here
 
-
+print("Happy \(person.1) birthday, \(person.0)!")
 
 
 
@@ -64,7 +64,7 @@
  */
 // write your code here
 
-
+var person2 = (name: "Marina", age: 36)
 
 
 
@@ -76,7 +76,7 @@
  */
 // write your code here
 
-
+print("\(person2.name) is \(person2.age) years old")
 
 
 
@@ -87,7 +87,7 @@
  */
 // write your code here
 
-
+person2.age += 1
 
 
 
@@ -98,7 +98,7 @@
  */
 // write your code here
 
-
+print("Happy \(person2.age) birthday, \(person2.name)!")
 
 
 
@@ -110,7 +110,7 @@
  */
 // write your code here
 
-
+let human = (name: "Alex", age: 35)
 
 
 
@@ -120,7 +120,7 @@
 /*:
  ### 10. Can you change `human`'s age? Why or why not?
  */
-
+//No, because it's constant
 
 
 
